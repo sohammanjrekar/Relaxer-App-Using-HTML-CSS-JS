@@ -1,0 +1,68 @@
+body {
+   margin: 0;
+   color: #fff;
+   font-family: "Noto Serif TC", serif;
+   font-weight: 500;
+}
+.single-meditation {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+#countdown {
+   border-radius: 10px;
+   box-shadow: 0px 0px 20px rgba(76, 87, 96, 0.2);
+   background: linear-gradient(to right, #C5C1FF 0%, #FFBAC3 100%);
+   color: #fff;
+   font-size: 120px;
+   padding: 30px 90px 40px 90px;
+   margin: 0;
+}
+#oceanVideo {
+   position: fixed;
+   top: 0;
+   right: 0;
+   min-height: 100%;
+   min-width: 100%;
+   z-index: -1;
+}
+.btn {
+   border: none;
+   background: none;
+   cursor: pointer;
+   font-size: 18px;
+   color: #fff;
+   font-family: "Noto Serif TC", serif;
+   font-weight: 700;
+   margin-top: 40px;
+}
+#playBtn {
+   display: none;
+}
+
+@media all and (max-width: 500px) {
+   #playBtn {
+      display: block;
+      margin: 0 auto;
+      margin-top: 40px;
+      border: none;
+      background: transparent;
+      font-size: 28px;
+      color: #fff;
+   }
+   #countdown {
+      font-size: 80px;
+      padding: 20px 50px 30px 50px;
+   }
+}
+@media all and (max-width: 280px) {
+   #playBtn {
+      font-size: 24px;
+   }
+   #countdown {
+      font-size: 70px;
+      padding: 10px 40px 20px 40px;
+   }
+}

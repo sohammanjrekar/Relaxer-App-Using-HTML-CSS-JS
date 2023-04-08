@@ -8,7 +8,7 @@
   <meta name="keywords" content="HTML CSS JS Dictionary" />
   <meta name="description" content="Simple English Dictionary using HTML CSS JS and Dictionary API." />
   <meta name="author" content="Soham Manjrekar" />
-  <title>Password Generator</title>
+  <title>Meditation app</title>
   <link rel="icon" type="image/x-icon" href="/images/logo.png">
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
@@ -67,55 +67,76 @@
       </div>
     </header>
   </div>
-  <section class="service_section layout_padding">
+  <section class="padding">
     <div class="container">
       <div class="d-flex flex-column align-items-end">
         <div class="custom_heading-container">
           <hr>
           <h2>
-            Password Generator
+            Meditation app
           </h2>
 
         </div>
         <p>
-          A simple, secure & clean way to generate random passcodes and passwords 🔑
+          A web app where users can log meditation sessions, write journal entries, and listen to relaxing music.
         </p>
       </div>
     </div>
-    <div class="container">
-      <div class="service_container layout_padding2">
-        <div class="container container1">
-          <div class="result-container">
-            <span id="result"></span>
-            <button class="btn" id="clipboard" style="width:10vw;">
-              Copy
-            </button>
-          </div>
-          <div class="settings">
-            <div class="setting">
-              <label for="length">Password Length</label>
-              <input type="number" name="length" id="length" min="4" max="20" value="20" />
-            </div>
-            <div class="setting">
-              <label for="uppercase">Include uppercase letters</label>
-              <input type="checkbox" name="uppercase" id="uppercase" checked />
-            </div>
-            <div class="setting">
-              <label for="lowercase">Include lowercase letters</label>
-              <input type="checkbox" name="lowercase" id="lowercase" checked />
-            </div>
-            <div class="setting">
-              <label for="numbers">Include numbers</label>
-              <input type="checkbox" name="numbers" id="numbers" checked />
-            </div>
-            <div class="setting">
-              <label for="symbols">Include symbols</label>
-              <input type="checkbox" name="symbols" id="symbols" checked />
+    <section class="padding">
+      <h1 class="text-center">Meditation app</h1>
+      <div id="container" class="container container1">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <p class="number">01</p>Forest
+                </h5>
+                <p class="card-text description">Take a walk in this tranquil forest anytime, and make it a
+                  peaceful sanctuary in your heart.</p>
+                <a href="forest/forest.html"><button class="btn">
+                    <i class="fa-regular fa-circle-play fa-lg"></i>
+                    Listen
+                  </button></a>
+              </div>
             </div>
           </div>
-          <button class="btn btn-large" id="generate">Generate Password</button>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <p class="number">02</p>Ocean waves
+                </h5>
+                <p class="card-text description">Take some deep breaths and allow your mind and body to
+                  relax, clear the cache of your brain.</p>
+                <a href="ocean/ocean.html"><button class="btn">
+                    <i class="fa-regular fa-circle-play fa-lg"></i>
+                    Listen
+                  </button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <p class="number">03</p>Rain sounds
+                </h5>
+                <p class="card-text description">Lean against the window, open the letter from the sky, and
+                  read each droplet of falling rain.</p>
+                <a href="rain/rain.html"><button class="btn">
+                    <i class="fa-regular fa-circle-play fa-lg"></i>
+                    Listen
+                  </button></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
+    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="bgVideo" controls>
+      <source src="video.mp4" type="video/mp4" />
+    </video>
   </section>
 
   <section class="info_section layout_padding">
@@ -144,7 +165,7 @@
       </div>
       <div>
         <p>
-          Hi there, My name’s Soham Shrikant Manjrekar, I’m 23, still a student It's been 4 years, I’m working as web
+          Hi there, My name’s Soham Shrikant Manjrekar, I’m 23, still a student .It's been 4 years, I’m working as web
           developer.i have developed many website.
           That's why I like to make things that make a difference.I love the entire process of developing creative
           websites.
